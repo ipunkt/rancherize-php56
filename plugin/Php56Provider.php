@@ -1,4 +1,4 @@
-<?php namespace RancherizePhp73;
+<?php namespace RancherizePhp56;
 
 use Rancherize\Blueprint\Infrastructure\Service\Maker\PhpFpm\AlpineDebugImageBuilder;
 use Rancherize\Blueprint\Infrastructure\Service\Maker\PhpFpm\PhpFpmMaker;
