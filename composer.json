@@ -1,0 +1,26 @@
+{
+  "name": "ipunkt/rancherize-php56",
+  "description": "Rancherize plugin which adds php56",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sven Speckmaier",
+      "email": "sps@ipunkt.biz"
+    }
+  ],
+  "autoload":{
+    "psr-4": {
+      "RancherizePhp56\\": "plugin/"
+    }
+  },
+
+  "require": {
+    "ipunkt/rancherize": "^2.24.1"
+  },
+  "require-dev": {
+  },
+  "extra":{
+    "rancherize-provider":"RancherizePhp56\\Php56Provider"
+  }
+}
